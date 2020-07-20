@@ -1,7 +1,7 @@
 class Song
   attr_accessor :name, :artist
 
-  @@all = []
+  @@all = ["Man in the Mirror"]
 
 def self.all
   @@all
