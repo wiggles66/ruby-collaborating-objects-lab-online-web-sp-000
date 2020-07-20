@@ -3,7 +3,7 @@ class Song
 
   @@all = []
 
-def self.all
+def all
   @@all
 end
 
