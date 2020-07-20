@@ -1,8 +1,6 @@
 class Song
   attr_accessor :artist, :name
-  def self.all      #class method all returns all instances of Artist class
-    @@all
-  end
+
   def initialize(name)
     @name = name
   end
